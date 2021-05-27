@@ -1,2 +1,18 @@
 
-springcloud config 测试 
+#  springcloud config 测试
+spring:
+  profiles:
+    active:
+      - dev
+
+---
+spring:
+  profiles: dev # 开发环境
+  application:
+    name: microservicecloud-config-chai-dev
+---
+spring:
+  profiles: test # 测试环境
+  application:
+    name: microservicecloud-config-chai-test
+

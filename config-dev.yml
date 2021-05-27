@@ -9,10 +9,10 @@ spring:
 spring:
   profiles: dev # 开发环境
   application:
-    name: microservicecloud-config-chai-dev
+    name: cloud-config-chai-dev
 ---
 spring:
   profiles: test # 测试环境
   application:
-    name: microservicecloud-config-chai-test
+    name: cloud-config-chai-test
 
